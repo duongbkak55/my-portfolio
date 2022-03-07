@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     background-image: url("/images/background1.jpg");
     background-position: center;
